@@ -1,0 +1,350 @@
+/*
+
+Landing Zero theme - A free landing page theme from BootstrapZero
+http://www.bootstrapzero.com
+
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC:900,700|Playfair+Display:700,900);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900);
+
+
+/* navbar */
+
+.no-padding {
+    padding: 0;
+}
+
+.navbar-default {
+    border-color: transparent;
+    font-family: 'Source Sans Pro','Helvetica Neue',Arial,sans-serif;
+    background-color: transparent;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+}
+ /* logo 
+.navbar-header > .navbar-brand {
+    font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
+    color: #9c27b0;
+    padding: 15px;
+    -webkit-transition: padding .2s ease-in;
+    -moz-transition: padding .2s ease-in;
+    transition: padding .2s ease-in;
+}
+
+.navbar-header > .navbar-brand:hover,
+.navbar-header > .navbar-brand:focus {
+    color: #8b27b0;
+}
+
+*/ end logo
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgba(255,255,255, 0.3);
+}
+.navbar-default .navbar-toggle, .navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+
+.navbar-default .nav {
+    background-color: rgba(255,255,255, 0.3);
+}
+.navbar-default .nav > li>a,
+.navbar-default .nav>li>a:focus {
+    background-color: rgba(255,255,255, 0.3);
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #222;
+}
+
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
+    color: #222;
+}
+
+.navbar-default .nav > li.active>a,
+.navbar-default .nav>li.active>a:focus {
+    color: #fefefe;
+    background-color: transparent;
+}
+
+.navbar-default .nav > li.active>a:hover,
+.navbar-default .nav>li.active>a:focus:hover
+{
+    background-color: transparent;
+}
+
+
+@media(min-width:768px) {
+    .navbar-default {
+        border-color: transparent;
+        background-color: transparent;
+        min-height: 60px;
+    }
+
+    .navbar-header > .navbar-brand {
+        color: rgba(255,255,255,0.7);
+        padding: 19px;
+    }
+
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: #f4f4f4;
+    }
+    
+    .navbar-default .nav {
+    background-color: transparent;
+    }
+
+    .navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+        background-color: transparent;
+        color: rgba(255,255,255,0.8);
+        font-size: 18px;
+        padding: 20px;
+        letter-spacing: 1.1px;
+    }
+
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #2d2d2d;
+    }
+  
+
+    .navbar-default.affix {
+        border-color: rgba(255,255,255, 0.3) ;
+        background-color: rgba(255,255,255, 0.3);
+    }
+/* logo
+    .navbar-default.affix .navbar-header .navbar-brand {
+        font-size: 15px;
+        color: #9c27b0;
+        padding: 20px;
+        letter-spacing: 1px;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand:hover,
+    .navbar-default.affix .navbar-header .navbar-brand:focus {
+        color: #8b27b0;
+    }
+*/
+    .navbar-default.affix .nav {
+        background-color: rgba(255,255,255, 0.3);
+    }
+    .navbar-default.affix .nav > li>a,
+    .navbar-default.affix .nav>li>a:focus {
+        color: #2d2d2d;
+    }
+
+    .navbar-default.affix .nav > li>a:hover,
+    .navbar-default.affix .nav>li>a:focus:hover {
+        color: #fefefe;
+    }
+    
+    .text-primary {
+    font-family: 'Playfair Display SC', serif;
+    font-style:normal;
+    font-weight:900;
+    color: #fefefe; 
+    font-size: 80px;
+    }
+}
+
+/* end navbar */
+
+
+body {
+    font-family: 'adobe-garamond-pro','Helvetica Neue',Arial,sans-serif;
+    font-weight:600;
+    font-style: normal;
+    color: #d3d3d3;
+     background: url(https://s3-us-west-2.amazonaws.com/christiebrophy-theme/portfolio_fabric_3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+
+}
+
+hr {
+    max-width: 80px;
+    border-width: 3px;
+    opacity: 0.09;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+hr.light {
+    border-color: #fff;
+}
+
+a {
+    color: #9c27b0;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+a:hover,
+a:focus {
+    color: #9c27c1;
+    outline: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Source Sans Pro','Helvetica Neue', Arial, sans-serif;
+    
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.text-primary {
+    font-family: 'Playfair Display SC', serif;
+    font-style:normal;
+    font-weight:900;
+    color: #fefefe;
+}
+
+
+
+
+
+
+header {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+}
+
+
+header  h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-style:normal;
+    font-weight:900;
+    color: #fefefe; 
+    font-size: 55px;
+}
+
+header h2 {
+    font-family:'adobe-garamond-pro';
+    font-style:italic;
+    font-weight:400;
+    color: #fefefe;  
+}
+
+
+
+
+
+
+
+
+section {
+    position: relative;
+    width: 100%;
+    padding: 100px;
+    text-align: center;
+    background-color: transparent;
+    margin-bottom:200px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+
+
+@media(min-width:768px) {
+
+
+    header {
+        position: relative;
+        font-size: 60px;
+        width: 100%;
+        padding-top: 350px;
+        padding-bottom: 350px;
+        text-align: center;
+        margin-bottom: 200px;
+        }
+    
+    header h1 {
+        font-size: 80px;
+    }
+        
+
+}
+
+/* gallery boxes  */
+
+
+
+.gallery-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 650px;
+    overflow:hidden;
+}
+
+.gallery-box .gallery-box-caption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    background: rgba(255,255,255, 0.5);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.gallery-box .gallery-box-caption .gallery-box-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.gallery-box:hover .gallery-box-caption {
+    Opacity: 1;
+}
+
+.gallery-box:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    
+}
+
+.gallery-box img {
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.no-gutter > [class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+
+
+
+
+

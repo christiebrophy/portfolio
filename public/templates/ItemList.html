@@ -1,0 +1,13 @@
+<div ng-repeat="item in items|orderBy:sortorder" class="col-md-6"> 
+          <div class="thumbnail"> 
+            <a href= "items/{{item._id}}">
+               <img ng-src="{{ item.image }}"> 
+                <p class="title">{{ item.name }} </p></a><br>
+              <p class="price">{{ item.price}}</p> 
+                  <div class="rating">
+                    <div class="likes" ng-model="item.likes" ng-click="upvoteItem(item)"  >
+                            {{item.likes}}<span class="glyphicon glyphicon-heart"></span>
+                    </div>
+                  </div>
+          </div> 
+</div>
