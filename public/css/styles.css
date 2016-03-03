@@ -152,27 +152,28 @@ html, body {
     height: 100%;
 }
 
+@media(max-width:767px) {
+    body {
+            font-family: 'adobe-garamond-pro','Helvetica Neue',Arial,sans-serif;
+            font-weight:600;
+            font-style: normal;
+            color: #d3d3d3;
+             background-image: url(https://s3-us-west-2.amazonaws.com/christiebrophy-theme/iphone_background.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+    }
 
-body {
-        font-family: 'adobe-garamond-pro','Helvetica Neue',Arial,sans-serif;
-        font-weight:600;
-        font-style: normal;
-        color: #d3d3d3;
-         background-image: url(https://s3-us-west-2.amazonaws.com/christiebrophy-theme/portfolio_fabric_3.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-}
-
-.text-primary {
-    font-family: 'Playfair Display SC', serif;
-    font-style:normal;
-    font-weight:900;
-    color: #222; 
-    font-size: 45px;
+    .text-primary {
+        font-family: 'Playfair Display SC', serif;
+        font-style:normal;
+        font-weight:900;
+        color: #222; 
+        font-size: 45px;
+    }
 }
 
 @media(min-width:768px) {
@@ -272,8 +273,8 @@ header {
     padding-bottom: 50px;
     padding-top:25px;
     text-align: center;
-    margin-bottom:350px;
-    margin-top:150px;
+    margin-bottom:500px;
+    margin-top:200px;
 }
 
 
