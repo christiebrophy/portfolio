@@ -187,6 +187,41 @@ html, body {
     font-size: 45px;
     color: #000;
     } 
+    
+    header {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top:25px;
+    text-align: center;
+    margin-bottom:500px;
+    margin-top:200px;
+    }
+
+
+    header  h1 {
+        font-family: 'Playfair Display SC', serif;
+        font-style:normal;
+        font-weight:900;
+        color: #fefefe; 
+        font-size: 55px;
+    }
+
+    header h2 {
+        font-family:'adobe-garamond-pro';
+        font-style:italic;
+        font-weight:400;
+        color: #222;  
+    }
+
+    section {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        background-color: transparent;
+        margin-bottom:10px;
+        margin-top:350px;
+    }
 }
 
 @media(min-width:768px) {
@@ -216,10 +251,25 @@ html, body {
     header {
     position: relative;
     width: 100%;
-    padding-bottom: 100px;
-    padding-top:50px;
     text-align: center;
-    margin-bottom:100px;
+    margin-bottom:300px;
+    margin-top:300px;
+   
+    }
+    
+    header h1 {
+        font-family: 'Playfair Display SC', serif;
+        font-style:normal;
+        font-weight:900;
+        color: #fefefe; 
+        font-size: 80px;
+    }
+    
+     header h2 {
+        font-family:'adobe-garamond-pro';
+        font-style:italic;
+        font-weight:400;
+        color: #222;  
     }
     
     .social .row {
@@ -283,65 +333,13 @@ p {
 
 
 
-header {
-    position: relative;
-    width: 100%;
-    padding-bottom: 50px;
-    padding-top:25px;
-    text-align: center;
-    margin-bottom:500px;
-    margin-top:200px;
-}
 
-
-header  h1 {
-    font-family: 'Playfair Display SC', serif;
-    font-style:normal;
-    font-weight:900;
-    color: #fefefe; 
-    font-size: 55px;
-}
-
-header h2 {
-    font-family:'adobe-garamond-pro';
-    font-style:italic;
-    font-weight:400;
-    color: #222;  
-}
-
-section {
-    position: relative;
-    width: 100%;
-    text-align: center;
-    background-color: transparent;
-    margin-bottom:10px;
-    margin-top:350px;
-}
 
 .no-padding {
     padding: 0;
 }
 
 
-
-@media(min-width:768px) {
-
-
-    header {
-        position: relative;
-        font-size: 60px;
-        width: 100%;
-        padding-top: 150px;
-        text-align: center;
-        margin-bottom: 200px;
-        }
-    
-    header h1 {
-        font-size: 80px;
-    }
-        
-
-}
 
 /* gallery boxes  */
 
