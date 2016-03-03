@@ -272,6 +272,15 @@ html, body {
         color: #222;  
     }
     
+     section {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        background-color: transparent;
+        margin-bottom:200px;
+        margin-top:50px;
+    }
+    
     .social .row {
     margin-left: 300px;
     margin-right:0;
