@@ -43,7 +43,7 @@ http://www.bootstrapzero.com
 */ end logo
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: rgba(255,255,255, 0.3);
+    background-color: #222;
 }
 .navbar-default .navbar-toggle, .navbar-default .navbar-collapse {
     border-color: transparent;
@@ -143,34 +143,74 @@ http://www.bootstrapzero.com
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #fefefe;
     }
+}
+
+/* end navbar */
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+
+body {
+        font-family: 'adobe-garamond-pro','Helvetica Neue',Arial,sans-serif;
+        font-weight:600;
+        font-style: normal;
+        color: #d3d3d3;
+         background-image: url(https://s3-us-west-2.amazonaws.com/christiebrophy-theme/portfolio_fabric_3.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.text-primary {
+    font-family: 'Playfair Display SC', serif;
+    font-style:normal;
+    font-weight:900;
+    color: #222; 
+    font-size: 45px;
+}
+
+@media(min-width:768px) {
     
-    .text-primary {
+    body {
+        font-family: 'adobe-garamond-pro','Helvetica Neue',Arial,sans-serif;
+        font-weight:600;
+        font-style: normal;
+        color: #d3d3d3;
+         background-image: url(https://s3-us-west-2.amazonaws.com/christiebrophy-theme/portfolio_fabric_3.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+     .text-primary {
     font-family: 'Playfair Display SC', serif;
     font-style:normal;
     font-weight:900;
     color: #fefefe; 
     font-size: 80px;
     }
+    
+    header {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top:50px;
+    text-align: center;
+    margin-bottom:100px;
 }
-
-/* end navbar */
-
-
-
-body {
-    font-family: 'adobe-garamond-pro','Helvetica Neue',Arial,sans-serif;
-    font-weight:600;
-    font-style: normal;
-    color: #d3d3d3;
-     background-image: url(https://s3-us-west-2.amazonaws.com/christiebrophy-theme/portfolio_fabric_3.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
+    
+
+
 
 
 hr {
@@ -209,13 +249,6 @@ p {
     margin-bottom: 20px;
 }
 
-.text-primary {
-    font-family: 'Playfair Display SC', serif;
-    font-style:normal;
-    font-weight:900;
-    color: #fefefe;
-}
-
 
 
 
@@ -224,8 +257,11 @@ p {
 header {
     position: relative;
     width: 100%;
-    padding: 100px 15px;
+    padding-bottom: 50px;
+    padding-top:50px;
     text-align: center;
+    margin-bottom:350px;
+    margin-top:150px;
 }
 
 
@@ -241,15 +277,8 @@ header h2 {
     font-family:'adobe-garamond-pro';
     font-style:italic;
     font-weight:400;
-    color: #fefefe;  
+    color: #222;  
 }
-
-
-
-
-
-
-
 
 section {
     position: relative;
@@ -257,7 +286,8 @@ section {
     padding: 100px;
     text-align: center;
     background-color: transparent;
-    margin-bottom:200px;
+    margin-bottom:100px;
+    margin-top:350px;
 }
 
 .no-padding {
@@ -273,8 +303,7 @@ section {
         position: relative;
         font-size: 60px;
         width: 100%;
-        padding-top: 350px;
-        padding-bottom: 350px;
+        padding-top: 150px;
         text-align: center;
         margin-bottom: 200px;
         }
@@ -306,7 +335,7 @@ section {
     height: 100%;
     text-align: center;
     color: #fff;
-    opacity: 0;
+    opacity: 1;
     background: rgba(255,255,255, 0.5);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -322,7 +351,7 @@ section {
 }
 
 .gallery-box:hover .gallery-box-caption {
-    Opacity: 1;
+    Opacity: 0;
 }
 
 .gallery-box:hover img {
