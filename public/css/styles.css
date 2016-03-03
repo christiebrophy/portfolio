@@ -156,6 +156,11 @@ http://www.bootstrapzero.com
 /* end navbar */
 
 
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
 body {
     font-family: 'adobe-garamond-pro','Helvetica Neue',Arial,sans-serif;
     font-weight:600;
@@ -166,9 +171,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-
-
 }
 
 hr {
