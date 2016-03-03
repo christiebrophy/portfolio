@@ -161,7 +161,7 @@ html, body {
             font-weight:600;
             font-style: normal;
             color: #d3d3d3;
-             background: url(https://s3-us-west-2.amazonaws.com/christiebrophy-theme/iphone_background1.png);
+             background-image: url(https://s3-us-west-2.amazonaws.com/christiebrophy-theme/portfolio_fabric_3.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             -webkit-background-size: cover;
