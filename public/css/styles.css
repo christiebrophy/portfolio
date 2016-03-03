@@ -169,20 +169,12 @@ body {
      background-image: url(https://s3-us-west-2.amazonaws.com/christiebrophy-theme/portfolio_fabric_3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-@media only screen and (max-width: 767px) {
-  body {
-    /* The file size of this background image is 93% smaller
-       to improve page load speed on mobile internet connections */
-    background-image: url(https://s3-us-west-2.amazonaws.com/christiebrophy-portfolio/portfolio_background_mobile.jpg);
-  }
-}
 
 hr {
     max-width: 80px;
